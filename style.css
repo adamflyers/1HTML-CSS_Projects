@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa {
+    width: 400px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+#banner {
+    width: 398px;
+    height: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: blanchedalmond;
+}
+
+#logo {
+    width: 100px;
+    height: 75px;
+    position: relative;
+    left: 5px;
+    top: 10px;
+    float: left;
+}
+
+#sosyal {
+    width: 125px;
+    height: 25px;
+    border-style: dotted;
+    border-width: 3px;
+    background-color: rgb(202, 177, 195);
+    position: relative;
+    right: 5px;
+    top: 10px;
+    float: right;
+}
+
+#ikon {
+    position: relative;
+    left: 2px;
+    height: 25px;
+    width: 25px;
+    float: right;
+}
+
+#anamenu {
+    background-color: rgb(208, 240, 95);
+    width: 400px;
+    height: 50px;
+}
+
+#anamenu ul li {
+    color: darkblue;
+    list-style-type: none;
+    float: left;
+    border-style: solid;
+    margin-left: 3px;
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+#anamenu ul a:link {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#anamenu ul a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+#anamenu ul a:active {
+    color: black;
+}
+
+#anamenu ul a:visited {
+    color: red;
+}
+
+#icerik {
+    background-color: blanchedalmond;
+    border-style: groove;
+    height: 398px;
+    width: 298px;
+    float: left;
+}
+
+#yanmenu {
+    background-color: coral;
+    border-style: double;
+    height: 398px;
+    width: 90px;
+    float: left;
+}
+
+#altmenu {
+    background-color: darkkhaki;
+    border-style: dotted;
+    width: 394px;
+    height: 38px;
+    float: left;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: crimson;
+    text-align: justify;
+    justify-self: start;
+}
+
+#altmenu a {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+#altmenu a:hover {
+    color: darkmagenta;
+    text-decoration: underline;
+}
+
+.kucukmetin {
+    font-size: 10px;
+    text-align: center;
+}
