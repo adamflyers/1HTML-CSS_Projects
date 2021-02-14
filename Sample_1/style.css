@@ -1,0 +1,348 @@
+4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFFFF url(images/img01.jpg) repeat-x;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #7F7772;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    color: #333333;
+}
+
+h1 {
+    font-size: 197%;
+}
+
+h2 {
+    font-size: 152%;
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+p,
+ul,
+ol {
+    margin-bottom: 15px;
+    line-height: 1.6em;
+}
+
+ul,
+ol {
+    margin-left: 2em;
+}
+
+blockquote {
+    margin-left: 1em;
+    padding-left: 1em;
+    background: url(images/img09.gif) repeat-y;
+    font-style: italic;
+}
+
+a:link {
+    color: #0AAAFD;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #FF6700;
+}
+
+a:visited {
+    color: #7F7772;
+}
+
+img {
+    border: none;
+}
+
+img.left {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+img.right {
+    float: right;
+    margin: 0 0 0 20px;
+}
+
+
+/* Menu */
+
+#menu {
+    width: 770px;
+    height: 105px;
+    margin: 0 auto;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    width: 122px;
+    height: 65px;
+    padding: 40px 0 0 0;
+}
+
+#menu a {
+    display: block;
+    width: 122px;
+    height: 32px;
+    padding: 13px 0 0 0;
+    background: url(images/img02.jpg) no-repeat;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#menu a:hover {
+    background-image: url(images/img03.jpg);
+}
+
+#menu .active {
+    padding-top: 35px;
+}
+
+#menu .active a {
+    height: 37px;
+    padding-top: 16px;
+    background-image: url(images/img04.jpg);
+    color: #327EBE;
+}
+
+#menu .active a:hover {
+    background-image: url(images/img04.jpg);
+}
+
+
+/* Header */
+
+#header {
+    width: 770px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+
+/* Logo */
+
+#logo {
+    float: left;
+    width: 250px;
+    height: 160px;
+    background: url(images/img05.jpg) no-repeat;
+}
+
+#logo h1,
+#logo h2 {
+    text-align: center;
+}
+
+#logo h1 {
+    padding-top: 90px;
+    background: url(images/img07.jpg) no-repeat center center;
+    letter-spacing: 8px;
+    font-size: 197%;
+}
+
+#logo h2 {
+    letter-spacing: 2px;
+    font-size: 85%;
+}
+
+#logo a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* Banner */
+
+#banner {
+    float: right;
+    width: 520px;
+    height: 160px;
+    background: url(images/img06.jpg) no-repeat;
+}
+
+#banner a {
+    float: right;
+    padding: 120px 20px 0 0;
+    text-decoration: none;
+    text-align: right;
+    font-size: 136%;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+
+/* Page */
+
+#page {
+    width: 760px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+
+
+/* Content */
+
+#content {
+    float: right;
+    width: 510px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post .title {
+    padding: 0 20px;
+}
+
+.post .story {
+    padding: 0 20px;
+}
+
+.post .meta {
+    padding: 5px 20px;
+    background: url(images/img09.gif) repeat-x;
+}
+
+.post .meta p {
+    margin: 0;
+    font-size: 77%;
+}
+
+.boxed .title {
+    height: 32px;
+    margin: 0;
+    padding: 8px 0 0 20px;
+    background: url(images/img08.jpg) no-repeat;
+    letter-spacing: -1px;
+    color: #FF3300;
+}
+
+.boxed .story {
+    padding: 20px;
+    border: 1px solid #FF8D17;
+}
+
+.boxed .meta {
+    padding: 5px 10px;
+    background: #FF8D17;
+    color: #FFFFFF;
+}
+
+.boxed .meta a {
+    color: #FFFFFF;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+    float: left;
+    width: 240px;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar li {
+    margin-bottom: 15px;
+}
+
+#sidebar li ul {
+    padding: 10px;
+    border: 1px solid #0AAAFD;
+    border-top: none;
+}
+
+#sidebar li li {
+    margin: 0;
+    padding: 3px 0;
+    background: url(images/img09.gif) repeat-x;
+}
+
+#sidebar li li.first {
+    background: none;
+}
+
+#sidebar li h2 {
+    height: 30px;
+    margin: 0;
+    padding: 10px 0 0 15px;
+    background: url(images/img10.jpg) no-repeat;
+    letter-spacing: -1px;
+    color: #327EBE;
+}
+
+#sidebar a:link {
+    text-decoration: none;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+}
+
+#sidebar li a {
+    padding-left: 10px;
+    background: url(images/img11.gif) no-repeat left center;
+}
+
+
+/* Footer */
+
+#footer {
+    clear: both;
+    height: 100px;
+    padding: 15px 0;
+    background: #D1D1D1;
+    border-top: 5px solid #999999;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+    color: #999999;
+}
+
+#footer a {
+    color: #999999;
+}
+
+#footer a:hover {
+    color: #FFFFFF;
+}
