@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    border-collapse: collapse;
 }
 
 body {
@@ -7,24 +8,34 @@ body {
 }
 
 header {
-    background-color: blanchedalmond;
+    background-color: rgb(100, 100, 100);
     padding: 30px;
     text-align: center;
     font-size: 35px;
+    display: table;
+    width: 100%;
 }
 
 .box {
     float: left;
-    width: 33%;
+    width: 33.2%;
     padding: 10px;
     height: 400px;
-    background-color: bisque;
+    background-color: rgb(200, 222, 244);
     margin: 2px;
     display: table;
 }
 
+.table {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
 footer {
-    background-color: burlywood;
+    background-color: hsl(24, 88, 74, 0.9);
     padding: 10px;
     text-align: center;
+    height: 100px;
 }
