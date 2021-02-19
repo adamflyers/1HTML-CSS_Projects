@@ -21,14 +21,11 @@ li a:hover {
     color: azure;
 }
 
-p {
+#paragraph {
+    border: 3px solid blueviolet;
     background-color: bisque;
     border: 100px;
-    display: inline-flex;
+    display: grid;
     text-align: justify;
     text-transform: uppercase;
-}
-
-#paragraph {
-    border: 5px solid blue;
 }
