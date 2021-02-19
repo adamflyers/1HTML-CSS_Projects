@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: blanchedalmond;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.box {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 400px;
+    background-color: bisque;
+    margin: 2px;
+    display: table;
+}
+
+footer {
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+}
