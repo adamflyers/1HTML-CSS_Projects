@@ -54,3 +54,11 @@ li a:hover {
     size: 25px;
     font-size: 25px;
 }
+
+#menu1 {
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    size: 15px;
+    align-items: center;
+}
