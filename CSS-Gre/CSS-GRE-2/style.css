@@ -47,17 +47,8 @@ li a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.menu1 {
-    background-color: brown;
-    size: 25px;
-    font-size: 25px;
-}
-
-#menu1 {
-    background-color: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
     font-size: 15px;
     size: 15px;
     align-items: center;
