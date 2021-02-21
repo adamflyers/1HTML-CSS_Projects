@@ -57,10 +57,21 @@ li a:hover {
 .box1 {
     box-sizing: border-box;
     width: 33%;
+    margin: 3px;
     height: 400px;
     float: left;
     background-color: brown;
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: burlywood;
+    display: grid;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
 }
