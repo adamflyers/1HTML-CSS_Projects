@@ -53,3 +53,14 @@ li a:hover {
     size: 15px;
     align-items: center;
 }
+
+.box1 {
+    box-sizing: border-box;
+    width: 33%;
+    height: 400px;
+    float: left;
+    background-color: brown;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
