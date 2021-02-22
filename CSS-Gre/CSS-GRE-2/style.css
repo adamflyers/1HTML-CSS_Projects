@@ -66,6 +66,9 @@ li a:hover {
     text-align: center;
     block-size: 25px;
     position: absolute;
+    animation: alternate;
+    align-self: flex-end;
+    display: block;
 }
 
 .footer {
