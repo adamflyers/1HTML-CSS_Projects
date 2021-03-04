@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-image: url("restaurant-bg.png");
+    background-image: url("bg.png");
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
@@ -44,7 +44,14 @@ nav {
     font-size: 2.5rem;
 }
 
-nav-ul {
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
     flex: 1 auto;
 }
 
@@ -53,6 +60,12 @@ nav li a {
     display: block;
     padding: 1rem 2rem;
     text-align: center;
+}
+
+nav a.active {
+    background-color: #fff;
+    color: #026e78;
+    font-weight: bold;
 }
 
 nav a.highlight {
@@ -86,7 +99,7 @@ nav a:hover {
     padding: 1rem;
 }
 
-.tea-link {
+.teal-link {
     background-color: #2d99a4;
     color: #fff;
     padding: 1rem;
