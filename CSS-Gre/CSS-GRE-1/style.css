@@ -10,10 +10,11 @@ p {
 
 ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
+    margin: 0.5em;
+    padding: 0.5em;
     background-color: rgb(70, 23, 23);
+    display: flex;
+    flex-direction: row;
 }
 
 li {
@@ -23,11 +24,8 @@ li {
 li a {
     display: block;
     color: rgb(210, 210, 224);
-    text-align: center;
-    padding: 14px 16px;
+    padding: 1em;
     text-decoration: none;
-    margin: 10px;
-    size: 20px;
 }
 
 li a:hover {
@@ -40,9 +38,9 @@ li a::after {
 
 header {
     background-color: rgb(150, 120, 120);
-    padding: 30px;
+    padding: 0.5em;
     text-align: center;
-    font-size: 35px;
+    font-size: 2em;
     display: table;
     width: 100%;
 }
@@ -50,32 +48,32 @@ header {
 .box {
     float: left;
     width: 33%;
-    padding: 10px;
-    height: 400px;
+    padding: 3em;
+    height: 25%;
     background-color: bisque;
-    margin: 2px;
+    margin: 0.1em;
     display: table;
     border-collapse: collapse;
+}
+
+th {
+    font-size: 5em;
 }
 
 th,
 td {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 75px;
+    font-size: 3em;
     border-collapse: collapse;
-    border: 3px solid #333;
-    width: 1000px;
-}
-
-th {
-    font-size: 100px;
+    border: 0.01em solid #333;
+    width: 50%;
 }
 
 footer {
     background-color: burlywood;
-    padding: 10px;
+    padding: 0.5em;
     text-align: center;
-    height: 100px;
+    height: 5em;
     width: 100%;
     display: inline-block;
 }
