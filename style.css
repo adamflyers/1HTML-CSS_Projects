@@ -3,3 +3,8 @@ header {
     width: 100%;
     background-color: coral;
 }
+
+nav {
+    height: 20%;
+    width: 100%;
+}
