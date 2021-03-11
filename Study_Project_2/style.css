@@ -1,21 +1,24 @@
-header {
-    height: 20%;
-    width: 100%;
-    background-color: coral;
-    position: absolute;
-}
-
-nav {
-    height: 20%;
-    width: 100%;
-}
-
-article {
-    height: 40%;
-    width: 100%;
-}
-
-footer {
-    height: 20%;
-    width: 100%;
-}
+<style>
+        .box{
+            border: 1px solid black;
+            height: 50px;
+            width: 300px;
+            margin-bottom: 70px;
+        }
+        #first{
+            overflow: visible;
+        }
+        #second{
+            overflow: hidden;
+        }
+        #third{
+            overflow: scroll;
+        }
+        #fourth{
+            overflow: auto;
+        }
+        #fifth{
+            /* overflow-x:scroll; */
+            overflow-y: scroll;
+        }
+    </style>
